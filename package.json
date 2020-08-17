@@ -1,6 +1,6 @@
 {
   "name": "facerecognitionbrain",
-  "homepage": "http://ulvi199517.github.io/face_recognition_brain",
+  "homepage": "https://smart-brain-appp.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "react-particles-js": "^3.2.1",
     "react-scripts": "^3.4.3",
     "react-tilt": "^0.1.4",
+    "serve": "^11.3.2",
     "tachyons": "^4.12.0"
   },
   "scripts": {
