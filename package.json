@@ -1,6 +1,5 @@
 {
   "name": "facerecognitionbrain",
-  "homepage": "https://github.com/ulvi199517/face_recognition_brain",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -11,6 +10,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "body-parser": "^1.19.0",
     "clarifai": "^2.9.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
