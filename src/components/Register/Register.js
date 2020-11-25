@@ -19,7 +19,7 @@ class Register extends React.Component  {
         this.setState({password: event.target.value});
     }
     onSumbitRegister = () => {
-        fetch('https://agile-forest-28668.herokuapp.com/register', {
+        fetch('https://smartbrain-api-back-end.herokuapp.com/register', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({

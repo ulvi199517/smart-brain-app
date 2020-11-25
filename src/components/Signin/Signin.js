@@ -16,7 +16,7 @@ class Signin extends React.Component {
         this.setState({signInPassword: event.target.value});
     }
     onSumbitSignIn = () => {
-        fetch('https://agile-forest-28668.herokuapp.com/signin', {
+        fetch('https://smartbrain-api-back-end.herokuapp.com/signin', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
