@@ -79,7 +79,7 @@ class App extends Component {
        .then(response => response.json())
        .then(response => {
           if(response){
-              fetch('https://smartbrain-api-back-end.herokuapp.com//image', {
+              fetch('https://smartbrain-api-back-end.herokuapp.com/image', {
                   method: 'put',
                   headers: {'Content-Type': 'application/json'},
                   body: JSON.stringify({
